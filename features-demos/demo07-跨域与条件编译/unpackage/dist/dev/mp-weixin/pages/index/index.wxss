@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+ .uni-grid-item {
+  width: 350rpx !important;
+}
+ .uni-grid-item .room-container {
+  width: 350rpx;
+}
+ .uni-grid-item .room-container .room-cover {
+  width: 350rpx;
+  position: relative;
+  border-radius: 6rpx;
+  overflow: hidden;
+}
+ .uni-grid-item .room-container .room-cover uni-image {
+  width: 350rpx;
+  height: 260rpx;
+  border-radius: 6rpx;
+  display: block;
+}
+ .uni-grid-item .room-container .room-cover .room-popularity {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rpx;
+  font-size: 0.8em;
+}
+ .uni-grid-item .room-container .room-cover .room-host {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 4rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-right: 6rpx;
+}
+ .uni-grid-item .room-container .room-cover .room-host uni-image {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6rpx;
+}
+ .uni-grid-item .room-container .room-cover .room-host uni-text {
+  color: white;
+  font-size: 0.8em;
+}
+ .uni-grid-item .room-container .room-title {
+  font-size: 0.8em;
+  margin-bottom: 10rpx;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.toTop-btn {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 30rpx;
+  right: 8rpx;
+}
+.toTop-btn:hover {
+  opacity: 1;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+

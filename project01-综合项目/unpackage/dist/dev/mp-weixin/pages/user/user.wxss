@@ -1,0 +1,116 @@
+
+.background-image {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+  z-index: 0;
+}
+.container {
+  padding: 160rpx 60rpx;
+}
+.container .header {
+  width: 64%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 160rpx;
+  padding: 20rpx 8rpx;
+  border-radius: 8rpx;
+}
+.header__logo {
+  width: 2rem;
+  height: 2rem;
+  -webkit-filter: drop-shadow(1px -2px 0.5px white);
+          filter: drop-shadow(1px -2px 0.5px white);
+}
+.header__title {
+  font-size: 1.2rem;
+  color: #333333;
+  -webkit-filter: drop-shadow(1px 1px 0.5px white);
+          filter: drop-shadow(1px 1px 0.5px white);
+}
+.form {
+  width: 90%;
+  margin: 0 auto;
+}
+.input-area {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 24rpx;
+  padding: 12rpx;
+  border-radius: 12rpx;
+  background: white;
+}
+.input-area image {
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 10rpx;
+}
+::-webkit-input-placeholder {
+  font-size: 8rpx;
+}
+::placeholder {
+  font-size: 8rpx;
+}
+.visible-sign {
+  margin-left: auto;
+}
+.login-btn {
+  color: white;
+  letter-spacing: 20rpx;
+  text-align: center;
+  background-color: #fca311;
+}
+.btn-active {
+  opacity: 0.6;
+}
+.extra-infos {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-top: 24rpx;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: underline;
+}
+.footer {
+  width: 90%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  margin-bottom: 120rpx;
+}
+.footer-title {
+  color: white;
+  text-align: center;
+  margin-bottom: 24rpx;
+  display: flex;
+  align-items: center;
+}
+.footer-title text {
+  margin: 0 10rpx;
+  word-break: keep-all;
+}
+.footer-title__decoration {
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  position: relative;
+}
+.footer-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 80rpx;
+}
+.footer-icons-container image {
+  width: 64rpx;
+  height: 64rpx;
+}
+

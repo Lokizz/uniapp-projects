@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "游戏直播",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-collapse": "/uni_modules/uni-collapse/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/uni_modules/uni-collapse/components/uni-collapse-item/uni-collapse-item",
+    "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "uni-grid": "/uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "uni-grid-item": "/uni_modules/uni-grid/components/uni-grid-item/uni-grid-item"
+  }
+}

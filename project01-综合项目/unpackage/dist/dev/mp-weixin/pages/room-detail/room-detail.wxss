@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+uni-grid {
+  display: flex;
+  justify-content: space-around;
+}
+uni-grid > uni-grid-item:nth-child(odd) {
+  margin-right: 5rpx;
+}
+
+uni-grid > uni-grid-item:nth-child(even) {
+  margin-left: 5rpx;
+}
+
+.room-cover {
+  position: relative;
+  width: 360rpx;
+}
+.room-cover image.cover {
+  width: 360rpx;
+  height: 220rpx;
+  display: block;
+}
+.room-cover .host-infos {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8rpx 12rpx;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 0.8em;
+}
+.room-cover .host-infos image.avatar {
+  width: 32rpx;
+  height: 32rpx;
+  border-radius: 50%;
+  margin-right: 8rpx;
+}
+.room-name {
+  font-size: 0.8em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 20rpx;
+}
+

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.carousel-container {
+  width: 100%;
+  height: 98vw;
+}
+.carousel-item {
+  width: 100%;
+  height: 100vw;
+}
+.rec-container {
+  display: flex;
+  align-items: center;
+  padding: 12rpx 8rpx;
+  color: white;
+  background-color: skyblue;
+}
+.rec-container text:nth-child(2) {
+  margin-left: 8rpx;
+}
+ .uni-grid {
+  width: 100vw;
+  justify-content: space-evenly;
+}
+ .uni-grid .product-item-container {
+  width: 48vw !important;
+  margin-bottom: 1rem;
+  box-shadow: 0rpx 2rpx 16rpx rgba(0, 0, 0, 0.1);
+}
+ .uni-grid .product-item-container .product-item .product-item__cover {
+  width: 48vw;
+  height: 48vw;
+}
+ .uni-grid .product-item-container .product-item .product-item__infos {
+  padding: 4rpx 8rpx 16rpx;
+}
+ .uni-grid .product-item-container .product-item .product-item__infos .infos-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+ .uni-grid .product-item-container .product-item .product-item__infos .infos-shop {
+  font-size: 0.8em;
+  color: gray;
+}
+ .uni-grid .product-item-container .product-item .product-item__infos .infos-price {
+  color: purple;
+  font-weight: 600;
+}
+ .uni-grid .product-item-container .product-item .product-item__infos .button-hover {
+  opacity: 0.6;
+}
+.features-footer .features-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: grey;
+}
+.features-footer .features-item image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-bottom: 10rpx;
+}
+.go-top {
+  position: fixed;
+  bottom: 120rpx;
+  right: 20rpx;
+  font-size: 2em;
+  border-radius: 50%;
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 1px 3px 8px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.go-top-active {
+  opacity: 0.7;
+}
+

@@ -1,0 +1,66 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/wx/wx",
+      "style": {
+        "navigationBarTitleText": "微信",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/contact/contact",
+      "style": {
+        "navigationBarTitleText": "通讯录",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/discovery/discovery",
+      "style": {
+        "navigationBarTitleText": "发现",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "我",
+        "enablePullDownRefresh": false
+      }
+
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/wx/wx",
+      "iconPath": "static/tabBar/wx.png",
+      "selectedIconPath": "static/tabBar/wx_HL.png",
+      "text": "微信"
+    }, {
+      "pagePath": "pages/contact/contact",
+      "iconPath": "static/tabBar/contact.png",
+      "selectedIconPath": "static/tabBar/contact_HL.png",
+      "text": "通讯录"
+    }, {
+      "pagePath": "pages/discovery/discovery",
+      "iconPath": "static/tabBar/discovery.png",
+      "selectedIconPath": "static/tabBar/discovery_HL.png",
+      "text": "发现"
+    }, {
+      "pagePath": "pages/user/user",
+      "iconPath": "static/tabBar/user.png",
+      "selectedIconPath": "static/tabBar/user_HL.png",
+      "text": "我"
+    }]
+  }
+}

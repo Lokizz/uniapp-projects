@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/live/live",
+    "pages/user/user",
+    "pages/webview/webview",
+    "pages/detail/detail",
+    "pages/room-detail/room-detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "scrollIndicator": "none"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#e63946",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_HL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/tabbar/category.png",
+        "selectedIconPath": "static/tabbar/category_HL.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/live/live",
+        "iconPath": "static/tabbar/live.png",
+        "selectedIconPath": "static/tabbar/live_HL.png",
+        "text": "直播"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user_HL.png",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

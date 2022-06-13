@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+swiper {
+  height: 750rpx;
+}
+swiper swiper-item {
+  position: relative;
+}
+swiper swiper-item .current-idx {
+  width: 3em;
+  max-height: 2em;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 20rpx;
+  right: 20rpx;
+  border-radius: 1em;
+  font-size: 1em;
+  font-weight: bolder;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+}
+.cover {
+  height: 750rpx;
+  width: 100%;
+}
+.infos {
+  width: 90vw;
+  padding: 0.6rem 0.6rem;
+  margin: 0.6rem auto;
+  border-radius: 18rpx;
+  background: white;
+  text-align: justify;
+}
+.infos .infos__title {
+  max-width: 100%;
+}
+.infos .infos__shop {
+  font-size: 0.8em;
+  color: gray;
+}
+.infos .infos__price {
+  font-size: 1.8em;
+  color: red;
+  margin-bottom: 0.2em;
+}
+.infos .infos__price .currency-sign {
+  font-size: 0.8em;
+  margin-right: 0.2em;
+}
+.recommend-container {
+  width: 90vw;
+  padding: 0.6rem 0.6rem;
+  margin: 0.6rem auto;
+  border-radius: 18rpx;
+}
+.product-nav-spacing {
+  height: 60px;
+}
+.product-nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.product-nav .btn-active {
+  opacity: 0.7;
+}
+

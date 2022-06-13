@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-grid": "/uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "uni-grid-item": "/uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+    "uni-load-more": "/uni_modules/uni-load-more/components/uni-load-more/uni-load-more"
+  }
+}
